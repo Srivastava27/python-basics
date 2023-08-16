@@ -7,3 +7,17 @@ print(new_age)
 #float()
 #str()
 #bool()
+
+
+# a = 5
+# b = "109"
+# c = str(a)
+# print(b+c)
+
+
+# a = 9
+# b = 10
+# d = str(b)
+# c = str(a)
+# print(d+c)
+# # print(b+d)
