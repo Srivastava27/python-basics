@@ -101,24 +101,3 @@ for i in range(cust_order):
 print("stock left: ",a)
 
 print("Thank you , visit again!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
