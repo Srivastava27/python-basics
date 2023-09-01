@@ -15,17 +15,21 @@ rest={
 
 print("Order your delicious food ! here's our menu: ")
 
-
+print(" ")
 
 for i,j in rest.items():
     print(i,": ",j,"/-")
 
+print(" ")
+
 
 item=input("Enter the item you want to order: ")
 
-
+print(" ")
 
 item2=input("Anything else you want: ")
+
+print(" ")
 
 if item=="noodles" and item2=="no":
     print("your bill is: ",rest["noodles"])
@@ -48,9 +52,11 @@ else:
 
 
 
-
+print(" ")
 
 print("ohk your order will be ready in just 10 min... Kindly wait")
+
+print(" ")
 
 
 
