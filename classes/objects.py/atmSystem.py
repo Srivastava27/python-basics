@@ -12,10 +12,14 @@ class atmSystem:
         pin=9876
         name="Vanshika"
 
+        x="OHK ! you can proceed further"
+        y="your details are wrong"
+        
         if self.account==account_no and self.pin==pin and self.name==name:
-            print("OHK ! you can proceed further")
+            print(x)
         else:
-            print("your details are wrong")
+            print(y)
+
 
     def details(self):
 
