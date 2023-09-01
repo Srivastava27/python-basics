@@ -19,7 +19,9 @@ class atmSystem:
             print(x)
         else:
             print(y)
-
+            
+        for y in range(x,y):
+            break
 
     def details(self):
 
