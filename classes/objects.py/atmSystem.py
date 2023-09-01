@@ -23,6 +23,8 @@ class atmSystem:
 
     def details(self):
 
+
+
         amount=60000
 
         print("Amount in your account: ",amount)
