@@ -1,37 +1,43 @@
 
-# task 1
-for i in range(1,10,2):
-    print(i)
+# # task 1
+# for i in range(1,10,2):
+#     print(i)
 
-# task2
-for x in range(10,81,3):
-    print(x)
+# # task2
+# for x in range(10,81,3):
+#     print(x)
 
-# task3
-for x in range(80,54,-2):
-    print(x)
+# # task3
+# for x in range(80,54,-2):
+#     print(x)
 
-# odd numbers
-for x in range(1,20,2):
-    print(x)
+# # odd numbers
+# for x in range(1,20,2):
+#     print(x)
 
-# even numbers
-for x in range(2,20,2):
-    print(x)
-
-
-# tbl of any number
-num=int(input("enter any number: "))
-for x in range(1,11,1):
-    print(num*x)
+# # even numbers
+# for x in range(2,20,2):
+#     print(x)
 
 
-num=int(input("enter any number: "))
-for x in range(1,16,1):
+# # tbl of any number
+# num=int(input("enter any number: "))
+# for x in range(1,11,1):
+#     print(num*x)
 
-    if(x==11):
-        break
-    if(x==5):
-        continue
 
-    print(num , " * " , x , " = " , num*x)
+# num=int(input("enter any number: "))
+# for x in range(1,16,1):
+
+#     if(x==11):
+#         break
+#     if(x==5):
+#         continue
+
+#     print(num , " * " , x , " = " , num*x)
+
+for i in range(1,3):
+    for j in range(1,i+1):
+        print("x :",i)
+        print("y: ",j)
+    print(" ")
